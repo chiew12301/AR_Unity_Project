@@ -22,6 +22,7 @@ public class ARCursor : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
+        this.m_buttonText.text = "Cursor: " + this.useCursor.ToString();
         this.m_cursorChildObject.SetActive(this.useCursor);
     }
 
