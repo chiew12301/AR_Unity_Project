@@ -42,7 +42,7 @@ public class ARCursor : MonoBehaviour
             else
             {
                 List<ARRaycastHit> hits = new List<ARRaycastHit>();
-                this.m_raycastManager.Raycast(Input.GetTouch(0).position, hits, UnityEngine.XR.ARSubsystems.TrackableType.Planes);
+                this.m_raycastManager.Raycast(Input.GetTouch(0).position, hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon);
 
                 if(hits.Count > 0)
                 {
@@ -56,7 +56,7 @@ public class ARCursor : MonoBehaviour
     {
         Vector3 screenPosition = this.m_camToUse.ViewportToScreenPoint(new Vector2(0.5f, 0.5f));
         List<ARRaycastHit> hits = new List<ARRaycastHit>();
-        this.m_raycastManager.Raycast(screenPosition, hits, UnityEngine.XR.ARSubsystems.TrackableType.Planes);
+        this.m_raycastManager.Raycast(screenPosition, hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon);
 
         if(hits.Count > 0)
         {
