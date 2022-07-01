@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5105952592912412058
+  m_GuidHigh: 12431706064052963732
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4639886224964392722
+      m_GuidHigh: 14090448469213390464
+    m_SerializedTextureGuid:
+      m_GuidLow: 13903868684827991472
+      m_GuidHigh: 3194572144316708139
+    m_Size: {x: 0.3, y: 0.3}
+    m_SpecifySize: 1
+    m_Name: KurumiChiew
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5199601371783164373
+      m_GuidHigh: 4113721107960377005
+    m_SerializedTextureGuid:
+      m_GuidLow: 10219811584766909175
+      m_GuidHigh: 3514904615716695451
+    m_Size: {x: 0.3, y: 0.3}
+    m_SpecifySize: 1
+    m_Name: Anya
+    m_Texture: {fileID: 0}
