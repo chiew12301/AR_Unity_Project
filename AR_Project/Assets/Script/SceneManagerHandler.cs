@@ -41,4 +41,9 @@ public class SceneManagerHandler : MonoBehaviour
 
         SceneManager.LoadScene(sceneName);
     }
+
+    public void QuitApplication()
+    {
+        Application.Quit();
+    }
 }
